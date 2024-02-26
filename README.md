@@ -2,13 +2,13 @@
 ### 🎯 Bu projede yazılımsal deneyimlerimi paylaşabileceğim kendime ait bir web blog sayfası yazmaya karar verdim. Projenin ilk aşaması olan üyelik işlemlerini tamamlamış bulunmaktayım.
 
 ### 👉 Kayıt olma (/register )
-üyelik işlemlerini tamamladığınızda size bir reflesh token ile access token dönüyor. Ayrıca Girmiş oldugnuz mail hesabınızada üyeliğiinizi aktif etmek için link gönderiyor. Linke tıklamak yeterli. üyeliğiniz aktif oluyor.
+Üyelik işlemlerini tamamladığınızda size bir reflesh token ile access token dönüyor. Ayrıca girmiş olduğunuz mail hesabınıza da üyeliğiinizi aktif etmek için link gönderiyor. Linke tıklamak yeterli. Üyeliğiniz aktif oluyor.
 ### 👉 Oturum açma (/login )
-email ve şifre giriyosunuz eğer üyeliğiniz aktif edilmişse sisteme giriş yapabiliyosunuz.Aksi taktirde bununla ilgili uyuarı veriyor. Ayrıca giriş başarılıysa bir access token ve refresh token dönüyor. Register işleminde sahip oldgumuz tokenlar ise geçersiz oluyor.
+Email ve şifre giriyosunuz eğer üyeliğiniz aktif edilmişse sisteme giriş yapabiliyosunuz aksi taktirde bununla ilgili uyuarı veriyor. Ayrıca giriş başarılıysa bir access token ve refresh token dönüyor. Register işleminde sahip olduğumuz tokenlar ise geçersiz oluyor.
 ### 👉 Token yenileme (/refresh-token )
-oturum açıkkken devam etmek istiyorsak buraya istek atıyoruz. istek neticesinde bize yeni bir access token ve refresh token dönüyor.
+Oturum açıkkken devam etmek istiyorsak buraya istek atıyoruz. İstek neticesinde bize yeni bir access token ve refresh token dönüyor.
 ### 👉 Çıkış işlemi (/logout )
-çıkış için istekte bulunduktan sonra tüm tokenlarımız geçersiz oluyor.
+Çıkış için istekte bulunduktan sonra tüm tokenlarımız geçersiz oluyor.
 ### 👉 Şifre Değiştirme (/change-password )
 Burada parametre almadım.Token ile isteğimizi atıyoruz. Önce bir securityContexUtil sınıfı açtım. Burada Kimlik bilgilerimizi doğruluyoruz. Bize bir email döndürüyor. Bunuda changePassword methodunad kullanıyoruz. Eski şifreyi ve yeni şifremizi giriyoruz :)
 ### 👉 Şifremi unuttum (/forget/password )
