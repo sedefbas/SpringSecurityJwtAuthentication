@@ -3,8 +3,8 @@
 
 ### 👉 Kayıt olma (/register )
 ### 👉 Oturum açma (/login )
-### 👉  Refresh Token (/refresh-token )
-### 👉  Çıkış işlemi (/logout )
+### 👉 Token yenileme (/refresh-token )
+### 👉 Çıkış işlemi (/logout )
 ### 👉 Şifre Değiştirme (/change-password )
-### 👉 Şifre Reseetleme (/reset-password )
+### 👉 Şifre Resetleme (/reset-password )
 ### 👉 Şifremi unuttum (/forget/password )
