@@ -16,5 +16,5 @@ Burada parametre almadım.Token ile isteğimizi atıyoruz. Önce bir securityCon
 ### 👉 Şifre Resetleme (/reset-password )
 Burada linkten gelen token bilgisi, ve yeni şifremiz alınarak resetleme gerçekleştirilir. Hemen ardındanda bu link geçersiz olur. Kullanıcının tekrardan login olması gerekir. 
 
-### 🎯 Ayrıca bu projede ek olarak hiç bilmediğim OpenApi entegrasyonunu sağlamayı öğrendim. Bununla ilgili küçük detayları keşfettim. Bununla ilgili bir resim buraya bırakıyorum.
+### 🎯 Ayrıca bu projede ek olarak hiç bilmediğim OpenApi entegrasyonunu sağlamayı öğrendim. Bununla ilgili küçük detayları keşfettim. İlgili bir resim buraya bırakıyorum.
 ![](https://r.resimlink.com/s6E1bi.png)
